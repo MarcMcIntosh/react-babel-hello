@@ -1,0 +1,36 @@
+{
+  "name": "react-babel-hello",
+  "version": "0.0.0",
+  "description": "react and bael hello world",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcMcIntosh/react-babel-hello.git"
+  },
+  "author": "Marc McIntosh <marcmcintosh1987@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcMcIntosh/react-babel-hello/issues"
+  },
+  "homepage": "https://github.com/MarcMcIntosh/react-babel-hello#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.18.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0"
+  }
+}
